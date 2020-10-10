@@ -3,8 +3,8 @@
 #### 1. Create virtualenv inside main project directory, and activate it
 
 ``` shell script
-python3 -m venv env
-source env/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 ```
 
 #### Install all dependencies
@@ -36,7 +36,7 @@ DATABASES = {
 #### Run Django server
 
 ``` shell script
-python manage.py makemigrationss
+python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 ```
